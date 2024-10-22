@@ -1,0 +1,27 @@
+.transaction-bar {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .transaction-bar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .transaction-bar li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .transaction-bar li.negative {
+    background-color: #ffdddd;
+  }
+  
+  .transaction-bar li.positive {
+    background-color: #ddffdd;
+  }
